@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy – SideStacks</title>
-  <link rel="icon" type="image/png" href="assets/logo_teal.png" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
@@ -19,12 +19,12 @@
     body { font-family: 'Inter', sans-serif; background: var(--navy); color: var(--text); -webkit-font-smoothing: antialiased; line-height: 1.75; }
 
     /* Nav */
-    nav { display: flex; align-items: center; justify-content: space-between; padding: 0 5%; height: 60px; background: rgba(10,22,40,0.94); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
+    body > nav { display: flex; align-items: center; justify-content: space-between; padding: 0 5%; height: 60px; background: rgba(10,22,40,0.94); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
     .nav-logo { display: flex; align-items: center; gap: 9px; text-decoration: none; }
     .nav-logo img { height: 26px; border-radius: 6px; }
     .nav-logo span { font-size: 16px; font-weight: 700; color: var(--white); letter-spacing: -0.3px; }
-    nav a.back { font-size: 13px; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 5px; transition: color 0.15s; }
-    nav a.back:hover { color: var(--text-bright); }
+    body > nav a.back { font-size: 13px; color: var(--muted); text-decoration: none; display: flex; align-items: center; gap: 5px; transition: color 0.15s; }
+    body > nav a.back:hover { color: var(--text-bright); }
 
     /* Layout */
     .page-wrap { max-width: 1060px; margin: 0 auto; padding: 64px 5% 120px; display: grid; grid-template-columns: 1fr 220px; gap: 64px; align-items: start; }
